@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+require "line/bot"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.6.5'
@@ -46,3 +47,5 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'line-bot-api'
+
+gem 'dotenv-rails'
